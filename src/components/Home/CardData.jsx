@@ -1,7 +1,7 @@
 import React from 'react';
 const CardData = (props) => {
     //console.log(props);
-    const {addBookMark} = props;
+    const {addBookMark, readSpentTime} = props;
     const { id, Author_name, Blog_title, Images, Author_image, Read_time, Publish_Date } = props.info;
     return (
         <div className="col-lg-12 rounded">
@@ -22,7 +22,7 @@ const CardData = (props) => {
                     </div>
                     <div className='ms-2'>
                         <h6>{Blog_title} ? </h6>
-                        <p className='mt-4'><button className="border-0 bg-dark p-1 rounded px-3"><span className='text-white'>Mark as read</span></button></p>
+                        <p className='mt-4'><button onClick={()=> readSpentTime(Read_time)} className="border-0 bg-dark p-1 rounded px-3"><span className='text-white'>Mark as read</span></button></p>
                     </div>
                 </div>
             </div>
