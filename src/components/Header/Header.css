@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Open+Sans:wght@300&family=Poppins:wght@300;400&display=swap');
+h1{
+  font-family: 'Alkatra', cursive;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(50, 180, 50);
+}
+a{
+    font-family: 'Poppins', sans-serif;
+}

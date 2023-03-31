@@ -1,38 +1,38 @@
 [
     {
-        "id": 1,
-        "Author name": "Jr. Danniyel Samui",
-        "Blog title": "How to get your first job as a self-taught programmer",
+        "id": 0,
+        "Author_name": "Jr. Danniyel Samui",
+        "Blog_title": "How to get your first job as a self-taught programmer",
         "Images": "./image/coding-4.jpg",
-        "Author image": "./image/men-2.jpg",
-        "Read time": "03 min read",
-        "Publish Date": "01/01/2023"
+        "Author_image": "./image/men-2.jpg",
+        "Read_time": "03 min read",
+        "Publish_Date": "01/01/2023"
     },
     {
         "id": 1,
-        "Author name": "Yahiya Yafi",
-        "Blog title": "How to get your first job as a self-taught programmer",
+        "Author_name": "Yahiya Yafi",
+        "Blog_title": "How to get your first job as a self-taught programmer",
         "Images": "./image/coding-1.jpg",
-        "Author image": "./image/women-1.jpg",
-        "Read time": "05 min read",
-        "Publish Date": "13/01/2023"
+        "Author_image": "./image/women-1.jpg",
+        "Read_time": "05 min read",
+        "Publish_Date": "13/01/2023"
     },
     {
         "id": 2,
-        "Author name": "John Bosu",
-        "Blog title": "How to get your first job as a self-taught programmer",
+        "Author_name": "John Bosu",
+        "Blog_title": "How to get your first job as a self-taught programmer",
         "Images": "./image/coding-2.jpg",
-        "Author image": "./image/men-1.jpg",
-        "Read time": "10 min read",
-        "Publish Date": "21/02/2023"
+        "Author_image": "./image/men-1.jpg",
+        "Read_time": "10 min read",
+        "Publish_Date": "21/02/2023"
     },
     {
         "id": 3,
-        "Author name": "Natasa Paul",
-        "Blog title": "How to get your first job as a self-taught programmer",
+        "Author_name": "Natasa Paul",
+        "Blog_title": "How to get your first job as a self-taught programmer",
         "Images": "./image/coding-3.jpg",
-        "Author image": "./image/women-2.jpg",
-        "Read time": "12 min read",
-        "Publish Date": "15/03/2023"
+        "Author_image": "./image/women-2.jpg",
+        "Read_time": "12 min read",
+        "Publish_Date": "15/03/2023"
     }
 ]
