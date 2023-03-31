@@ -10,17 +10,19 @@ const CardData = (props) => {
                         <img className='card-image' src={Images} alt="" />
                     </div>
                     <div className="d-flex justify-content-between align-items-center mt-3 px-2">
-                        <div className='d-flex justify-content-between align-items-center'>
+                        <div className='d-flex justify-content-between gap-2'>
                             <img className='author-img' src={Author_image} alt='' />
                             <div>
                                 <h5>{Author_name}</h5>
                                 <p>{Publish_Date}</p>
                             </div>
                         </div>
-                        <p>{Read_time}</p>
+                        <p>{Read_time} min read <i class="fa-regular fa-bookmark"></i></p>
                     </div>
-                    <p>{Blog_title}</p>
-                    <button className="border-0 bg-dark"><span className='text-white me-3'>Mark as read</span></button>
+                    <div className='ms-2'>
+                        <h6>{Blog_title} ? </h6>
+                        <p className='mt-4'><button className="border-0 bg-dark p-1 rounded px-3"><span className='text-white'>Mark as read</span></button></p>
+                    </div>
                 </div>
             </div>
         </div>

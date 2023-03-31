@@ -5,8 +5,8 @@
         "Blog_title": "How to get your first job as a self-taught programmer",
         "Images": "./image/coding-4.jpg",
         "Author_image": "./image/men-2.jpg",
-        "Read_time": "03 min read",
-        "Publish_Date": "01/01/2023"
+        "Read_time": "03",
+        "Publish_Date": "Mar 14 (4 Days ago)"
     },
     {
         "id": 1,
@@ -14,8 +14,8 @@
         "Blog_title": "How to get your first job as a self-taught programmer",
         "Images": "./image/coding-1.jpg",
         "Author_image": "./image/women-1.jpg",
-        "Read_time": "05 min read",
-        "Publish_Date": "13/01/2023"
+        "Read_time": "05",
+        "Publish_Date": "Mar 14 (4 Days ago)"
     },
     {
         "id": 2,
@@ -23,8 +23,8 @@
         "Blog_title": "How to get your first job as a self-taught programmer",
         "Images": "./image/coding-2.jpg",
         "Author_image": "./image/men-1.jpg",
-        "Read_time": "10 min read",
-        "Publish_Date": "21/02/2023"
+        "Read_time": "10",
+        "Publish_Date": "Mar 14 (4 Days ago)"
     },
     {
         "id": 3,
@@ -32,7 +32,7 @@
         "Blog_title": "How to get your first job as a self-taught programmer",
         "Images": "./image/coding-3.jpg",
         "Author_image": "./image/women-2.jpg",
-        "Read_time": "12 min read",
-        "Publish_Date": "15/03/2023"
+        "Read_time": "12",
+        "Publish_Date": "Mar 14 (4 Days ago)"
     }
 ]
