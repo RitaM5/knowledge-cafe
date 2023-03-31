@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Home.css';
 import CardData from './cardData';
 import AddNewBlog from './AddNewBlog';
+import { toast } from 'react-toastify';
 const Home = () => {
     const [data, setData] = useState([]);
     const [blog, setBlog] = useState([])
@@ -11,9 +12,13 @@ const Home = () => {
             .then((data) => setData(data))
     }, []);
     const addBookMark = (title) => {
-        console.log(title);
-        const newBlog = [...blog, title]
-        setBlog(newBlog);
+        if (blog.indexOf(title) === -1) {
+            const newBlog = [...blog, title]
+            setBlog(newBlog);
+        }
+        else {
+            toast("Already this title has been showing in the bookmark !")
+        }
     }
     return (
         <div className='row mt-4'>

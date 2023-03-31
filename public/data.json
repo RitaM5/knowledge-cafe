@@ -11,7 +11,7 @@
     {
         "id": 1,
         "Author_name": "Yahiya Yafi",
-        "Blog_title": "How to get your first job as a self-taught programmer",
+        "Blog_title": "How to know about javascript",
         "Images": "./image/coding-1.jpg",
         "Author_image": "./image/women-1.jpg",
         "Read_time": "05",
@@ -20,7 +20,7 @@
     {
         "id": 2,
         "Author_name": "John Bosu",
-        "Blog_title": "How to get your first job as a self-taught programmer",
+        "Blog_title": "what is the purpose of state",
         "Images": "./image/coding-2.jpg",
         "Author_image": "./image/men-1.jpg",
         "Read_time": "10",
@@ -29,7 +29,7 @@
     {
         "id": 3,
         "Author_name": "Natasa Paul",
-        "Blog_title": "How to get your first job as a self-taught programmer",
+        "Blog_title": "How to be programmer",
         "Images": "./image/coding-3.jpg",
         "Author_image": "./image/women-2.jpg",
         "Read_time": "12",
