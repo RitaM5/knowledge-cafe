@@ -1,26 +1,38 @@
 [
     {
-        "month": "Mar",
-        "investment": 100000,
-        "sell": 241,
-        "revenue": 10401
+        "id": 1,
+        "Author name": "Jr. Danniyel Samui",
+        "Blog title": "How to get your first job as a self-taught programmer",
+        "Images": "./image/coding-4.jpg",
+        "Author image": "./image/men-2.jpg",
+        "Read time": "03 min read",
+        "Publish Date": "01/01/2023"
     },
     {
-        "month": "Apr",
-        "investment": 200000,
-        "sell": 423,
-        "revenue": 24500
+        "id": 1,
+        "Author name": "Yahiya Yafi",
+        "Blog title": "How to get your first job as a self-taught programmer",
+        "Images": "./image/coding-1.jpg",
+        "Author image": "./image/women-1.jpg",
+        "Read time": "05 min read",
+        "Publish Date": "13/01/2023"
     },
     {
-        "month": "May",
-        "investment": 500000,
-        "sell": 726,
-        "revenue": 67010
+        "id": 2,
+        "Author name": "John Bosu",
+        "Blog title": "How to get your first job as a self-taught programmer",
+        "Images": "./image/coding-2.jpg",
+        "Author image": "./image/men-1.jpg",
+        "Read time": "10 min read",
+        "Publish Date": "21/02/2023"
     },
     {
-        "month": "Jun",
-        "investment": 500000,
-        "sell": 529,
-        "revenue": 40405
+        "id": 3,
+        "Author name": "Natasa Paul",
+        "Blog title": "How to get your first job as a self-taught programmer",
+        "Images": "./image/coding-3.jpg",
+        "Author image": "./image/women-2.jpg",
+        "Read time": "12 min read",
+        "Publish Date": "15/03/2023"
     }
 ]
