@@ -14,11 +14,11 @@ const CardData = (props) => {
                         <div className='d-flex justify-content-between gap-2'>
                             <img className='author-img' src={Author_image} alt='' />
                             <div>
-                                <h5>{Author_name}</h5>
-                                <p>{Publish_Date}</p>
+                                <h5 style={{fontSize:"16px"}}>{Author_name}</h5>
+                                <p style={{fontSize:"13px"}}>{Publish_Date}</p>
                             </div>
                         </div>
-                        <p>{Read_time} min read <i className="fa-regular fa-bookmark" onClick={() => addBookMark(Blog_title)}></i></p>
+                        <p>{Read_time} <span style={{fontSize:"15px"}}>min read </span><i className="fa-regular fa-bookmark" onClick={() => addBookMark(Blog_title)}></i></p>
                     </div>
                     <div className='ms-2'>
                         <h6>{Blog_title} ? </h6>

@@ -42,7 +42,7 @@ const Home = () => {
             </div>
             <div className="col-lg-4">
                 <div className='card Larger shadow p-3'>
-                    <p className='text-center fs-5'>Spent time on read : <span>{readTime}</span></p>
+                    <p className='text-center fs-5'>Spent time on read : <span>{readTime ? readTime + " " + 'min' : 0}</span></p>
                 </div>
                 <div className='mt-3 bookmark-blogs p-4 rounded'>
                     <h5 className='fw-bold text-center'>Bookmarked Blogs : <span>{blog.length ? blog.length : 0}</span></h5>
