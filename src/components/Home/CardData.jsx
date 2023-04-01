@@ -21,7 +21,7 @@ const CardData = (props) => {
                         <p>{Read_time} <span style={{fontSize:"15px"}}>min read </span><i className="fa-regular fa-bookmark" onClick={() => addBookMark(Blog_title)}></i></p>
                     </div>
                     <div className='ms-2'>
-                        <h6>{Blog_title} ? </h6>
+                        <h6>{Blog_title}</h6>
                         <p className='mt-4'><button onClick={()=> readSpentTime(Read_time)} className="border-0 bg-dark p-1 rounded px-3"><span className='text-white'>Mark as read</span></button></p>
                     </div>
                 </div>
